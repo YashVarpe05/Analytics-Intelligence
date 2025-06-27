@@ -16,10 +16,12 @@ A modern, responsive React dashboard for customer analytics with advanced visual
   - Executive summary and recommendations
 - **Responsive Design** - Fully responsive layout that works on all devices
 - **Modern UI** - Dark theme with beautiful gradients and animations using Framer Motion
+- **Fast Deployment** - Quickly install and deploy with minimal configuration
 
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **React 18** with TypeScript
 - **Vite** for fast development and building
 - **Tailwind CSS** for styling
@@ -28,6 +30,7 @@ A modern, responsive React dashboard for customer analytics with advanced visual
 - **Lucide React** for icons
 
 ### Backend
+
 - **Flask** (Python) API server
 - **Pandas** for data processing
 - **Flask-CORS** for cross-origin requests
@@ -68,6 +71,7 @@ project/
 ## 🚦 Getting Started
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - Python 3.8+
 - npm or yarn
@@ -75,12 +79,14 @@ project/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/customer-analytics-dashboard.git
    cd customer-analytics-dashboard
    ```
 
 2. **Install frontend dependencies**
+
    ```bash
    npm install
    ```
@@ -93,9 +99,11 @@ project/
 ### Running the Application
 
 1. **Start the Flask backend** (in one terminal):
+
    ```bash
    python api/app.py
    ```
+
    The API will be available at `http://localhost:5000`
 
 2. **Start the React frontend** (in another terminal):
@@ -107,11 +115,18 @@ project/
 ## 📈 Data Source
 
 The dashboard uses `final_data.csv` which contains customer data with the following key fields:
+
 - Customer demographics and segments
 - Revenue and CLTV metrics
 - Churn probability and risk levels
 - Product category revenue breakdowns
 - Geographic and behavioral data
+
+## ⚡ Performance Tips
+
+- Preprocess CSV data to reduce data loading time
+- Use caching for frequently accessed endpoints
+- Optimize images and static assets for faster rendering
 
 ## 🎨 UI/UX Features
 
@@ -133,6 +148,7 @@ The dashboard uses `final_data.csv` which contains customer data with the follow
 ## 📱 Responsive Design
 
 The dashboard is fully responsive with breakpoints:
+
 - **Mobile**: Single column layout, compact spacing
 - **Tablet**: Two column grid, medium spacing
 - **Desktop**: Multi-column layout, full features
